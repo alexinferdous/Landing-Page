@@ -1,0 +1,28 @@
+img {
+    width: auto;
+    max-height: 80px;
+}
+
+.one {
+    background-color: #1f2937;
+    height: 50vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 150px;
+}
+
+.HLinks {
+    display: flex;
+    gap: 30px;
+}
+
+.hlink {
+    color: #E5E7EB;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0;
+}
