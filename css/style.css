@@ -1,18 +1,21 @@
-img {
+.logo {
     width: auto;
     max-height: 80px;
 }
 
 .one {
     background-color: #1f2937;
-    height: 50vh;
+    height: 60vh;
+    padding: 0px 150px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 150px;
+    padding: 40px 0px;
+    margin-bottom: 5vh;
+    gap: 50px;
 }
 
 .HLinks {
@@ -25,4 +28,61 @@ img {
     font-size: 20px;
     text-decoration: none;
     margin: 0;
+}
+
+.bigtext {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.smalltext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+.signup {
+    display: flex;
+    flex-wrap: wrap;
+ /*   justify-content: space-between; */
+    gap: 80px;
+    max-width: 2000px;
+    
+}
+
+.SLeft {
+    flex: 1;
+    max-width: 50%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SRight {
+    flex: 1;
+    max-width: 50%;
+    max-height: 100%;
+    display: flex;
+    justify-content: flex-end; /* Horizontal alignment */
+    align-items: center;     /* Vertical alignment */
+ 
+}
+
+.SImage {
+   max-width: 100%;
+    max-height: 30vh; 
+
+}
+
+.SButton {
+    background-color: #3882f6;
+    color: white;
+    max-width: 125px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
 }
