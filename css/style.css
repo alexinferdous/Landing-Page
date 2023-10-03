@@ -123,3 +123,27 @@ body{
     gap: 20px;
     font-weight: 600;
 }
+
+.three {
+    margin-top: 100px;
+    background-color: #E5E7EB;
+    padding: 200px;
+/*    display: flex;
+    align-items: flex-end;
+    flex-direction: column; */
+
+}
+
+.t1 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+
+}
+
+.t2 {
+    font-size:28px;
+    font-weight: 700;
+    padding-right: 40px;
+    text-align: end; 
+}
